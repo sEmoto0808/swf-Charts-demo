@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A144E796D40197B0A11462BA /* Pods_swf_RaderChart_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06D539186539E25CBA81265 /* Pods_swf_RaderChart_demoTests.framework */; };
+		A22EE8F120E1462500C6FBF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EE8F020E1462500C6FBF2 /* AppDelegate.swift */; };
+		A22EE8F320E1462500C6FBF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EE8F220E1462500C6FBF2 /* ViewController.swift */; };
+		A22EE8F620E1462500C6FBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22EE8F420E1462500C6FBF2 /* Main.storyboard */; };
+		A22EE8F820E1462700C6FBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22EE8F720E1462700C6FBF2 /* Assets.xcassets */; };
+		A22EE8FB20E1462700C6FBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22EE8F920E1462700C6FBF2 /* LaunchScreen.storyboard */; };
+		A22EE90620E1462700C6FBF2 /* swf_RaderChart_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EE90520E1462700C6FBF2 /* swf_RaderChart_demoTests.swift */; };
+		A22EE91320E146DB00C6FBF2 /* CustomRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EE91220E146DB00C6FBF2 /* CustomRadarChartView.swift */; };
+		C90E7A270EE34E2DE65B59C2 /* Pods_swf_RaderChart_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D09C092C07BBDA43DBD84D3 /* Pods_swf_RaderChart_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A22EE90220E1462700C6FBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22EE8E520E1462500C6FBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22EE8EC20E1462500C6FBF2;
+			remoteInfo = "swf-RaderChart-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D09C092C07BBDA43DBD84D3 /* Pods_swf_RaderChart_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swf_RaderChart_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF0B48BA25F348797043994 /* Pods-swf-RaderChart-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-RaderChart-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swf-RaderChart-demo/Pods-swf-RaderChart-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A22EE8ED20E1462500C6FBF2 /* swf-RaderChart-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swf-RaderChart-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22EE8F020E1462500C6FBF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A22EE8F220E1462500C6FBF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A22EE8F520E1462500C6FBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22EE8F720E1462700C6FBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22EE8FA20E1462700C6FBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A22EE8FC20E1462700C6FBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22EE90120E1462700C6FBF2 /* swf-RaderChart-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swf-RaderChart-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22EE90520E1462700C6FBF2 /* swf_RaderChart_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swf_RaderChart_demoTests.swift; sourceTree = "<group>"; };
+		A22EE90720E1462700C6FBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22EE91220E146DB00C6FBF2 /* CustomRadarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadarChartView.swift; sourceTree = "<group>"; };
+		B02E1A3DD02F3F478A906419 /* Pods-swf-RaderChart-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-RaderChart-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swf-RaderChart-demoTests/Pods-swf-RaderChart-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDDDE3FAF31818BBD5015D20 /* Pods-swf-RaderChart-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-RaderChart-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-swf-RaderChart-demo/Pods-swf-RaderChart-demo.release.xcconfig"; sourceTree = "<group>"; };
+		D06D539186539E25CBA81265 /* Pods_swf_RaderChart_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swf_RaderChart_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF156E2350781BF9793087CE /* Pods-swf-RaderChart-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-RaderChart-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swf-RaderChart-demoTests/Pods-swf-RaderChart-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22EE8EA20E1462500C6FBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E7A270EE34E2DE65B59C2 /* Pods_swf_RaderChart_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22EE8FE20E1462700C6FBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A144E796D40197B0A11462BA /* Pods_swf_RaderChart_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57376F20C46CE5F8C60682F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D09C092C07BBDA43DBD84D3 /* Pods_swf_RaderChart_demo.framework */,
+				D06D539186539E25CBA81265 /* Pods_swf_RaderChart_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82E83CF46FBC19B3C14D95BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF0B48BA25F348797043994 /* Pods-swf-RaderChart-demo.debug.xcconfig */,
+				BDDDE3FAF31818BBD5015D20 /* Pods-swf-RaderChart-demo.release.xcconfig */,
+				B02E1A3DD02F3F478A906419 /* Pods-swf-RaderChart-demoTests.debug.xcconfig */,
+				DF156E2350781BF9793087CE /* Pods-swf-RaderChart-demoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A22EE8E420E1462500C6FBF2 = {
+			isa = PBXGroup;
+			children = (
+				A22EE8EF20E1462500C6FBF2 /* swf-RaderChart-demo */,
+				A22EE90420E1462700C6FBF2 /* swf-RaderChart-demoTests */,
+				A22EE8EE20E1462500C6FBF2 /* Products */,
+				82E83CF46FBC19B3C14D95BA /* Pods */,
+				57376F20C46CE5F8C60682F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A22EE8EE20E1462500C6FBF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22EE8ED20E1462500C6FBF2 /* swf-RaderChart-demo.app */,
+				A22EE90120E1462700C6FBF2 /* swf-RaderChart-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22EE8EF20E1462500C6FBF2 /* swf-RaderChart-demo */ = {
+			isa = PBXGroup;
+			children = (
+				A22EE91120E146B600C6FBF2 /* RaderChartView */,
+				A22EE91020E1469E00C6FBF2 /* Other */,
+				A22EE8F220E1462500C6FBF2 /* ViewController.swift */,
+				A22EE8F420E1462500C6FBF2 /* Main.storyboard */,
+				A22EE8F720E1462700C6FBF2 /* Assets.xcassets */,
+				A22EE8F920E1462700C6FBF2 /* LaunchScreen.storyboard */,
+				A22EE8FC20E1462700C6FBF2 /* Info.plist */,
+			);
+			path = "swf-RaderChart-demo";
+			sourceTree = "<group>";
+		};
+		A22EE90420E1462700C6FBF2 /* swf-RaderChart-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A22EE90520E1462700C6FBF2 /* swf_RaderChart_demoTests.swift */,
+				A22EE90720E1462700C6FBF2 /* Info.plist */,
+			);
+			path = "swf-RaderChart-demoTests";
+			sourceTree = "<group>";
+		};
+		A22EE91020E1469E00C6FBF2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A22EE8F020E1462500C6FBF2 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A22EE91120E146B600C6FBF2 /* RaderChartView */ = {
+			isa = PBXGroup;
+			children = (
+				A22EE91220E146DB00C6FBF2 /* CustomRadarChartView.swift */,
+			);
+			path = RaderChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22EE8EC20E1462500C6FBF2 /* swf-RaderChart-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22EE90A20E1462700C6FBF2 /* Build configuration list for PBXNativeTarget "swf-RaderChart-demo" */;
+			buildPhases = (
+				A235CCBBB3D868BF7F7320BA /* [CP] Check Pods Manifest.lock */,
+				A22EE8E920E1462500C6FBF2 /* Sources */,
+				A22EE8EA20E1462500C6FBF2 /* Frameworks */,
+				A22EE8EB20E1462500C6FBF2 /* Resources */,
+				26FD18571B1A5FAAEAD30E40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swf-RaderChart-demo";
+			productName = "swf-RaderChart-demo";
+			productReference = A22EE8ED20E1462500C6FBF2 /* swf-RaderChart-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A22EE90020E1462700C6FBF2 /* swf-RaderChart-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22EE90D20E1462700C6FBF2 /* Build configuration list for PBXNativeTarget "swf-RaderChart-demoTests" */;
+			buildPhases = (
+				781361308CDD926BE44A6C06 /* [CP] Check Pods Manifest.lock */,
+				A22EE8FD20E1462700C6FBF2 /* Sources */,
+				A22EE8FE20E1462700C6FBF2 /* Frameworks */,
+				A22EE8FF20E1462700C6FBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22EE90320E1462700C6FBF2 /* PBXTargetDependency */,
+			);
+			name = "swf-RaderChart-demoTests";
+			productName = "swf-RaderChart-demoTests";
+			productReference = A22EE90120E1462700C6FBF2 /* swf-RaderChart-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22EE8E520E1462500C6FBF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = S.Emoto;
+				TargetAttributes = {
+					A22EE8EC20E1462500C6FBF2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A22EE90020E1462700C6FBF2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A22EE8EC20E1462500C6FBF2;
+					};
+				};
+			};
+			buildConfigurationList = A22EE8E820E1462500C6FBF2 /* Build configuration list for PBXProject "swf-RaderChart-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22EE8E420E1462500C6FBF2;
+			productRefGroup = A22EE8EE20E1462500C6FBF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22EE8EC20E1462500C6FBF2 /* swf-RaderChart-demo */,
+				A22EE90020E1462700C6FBF2 /* swf-RaderChart-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22EE8EB20E1462500C6FBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22EE8FB20E1462700C6FBF2 /* LaunchScreen.storyboard in Resources */,
+				A22EE8F820E1462700C6FBF2 /* Assets.xcassets in Resources */,
+				A22EE8F620E1462500C6FBF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22EE8FF20E1462700C6FBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26FD18571B1A5FAAEAD30E40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swf-RaderChart-demo/Pods-swf-RaderChart-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swf-RaderChart-demo/Pods-swf-RaderChart-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781361308CDD926BE44A6C06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swf-RaderChart-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A235CCBBB3D868BF7F7320BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swf-RaderChart-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22EE8E920E1462500C6FBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22EE91320E146DB00C6FBF2 /* CustomRadarChartView.swift in Sources */,
+				A22EE8F320E1462500C6FBF2 /* ViewController.swift in Sources */,
+				A22EE8F120E1462500C6FBF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22EE8FD20E1462700C6FBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22EE90620E1462700C6FBF2 /* swf_RaderChart_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A22EE90320E1462700C6FBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22EE8EC20E1462500C6FBF2 /* swf-RaderChart-demo */;
+			targetProxy = A22EE90220E1462700C6FBF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A22EE8F420E1462500C6FBF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22EE8F520E1462500C6FBF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A22EE8F920E1462700C6FBF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22EE8FA20E1462700C6FBF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22EE90820E1462700C6FBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A22EE90920E1462700C6FBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22EE90B20E1462700C6FBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF0B48BA25F348797043994 /* Pods-swf-RaderChart-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-RaderChart-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-RaderChart-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A22EE90C20E1462700C6FBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDDE3FAF31818BBD5015D20 /* Pods-swf-RaderChart-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-RaderChart-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-RaderChart-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A22EE90E20E1462700C6FBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02E1A3DD02F3F478A906419 /* Pods-swf-RaderChart-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-RaderChart-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-RaderChart-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf-RaderChart-demo.app/swf-RaderChart-demo";
+			};
+			name = Debug;
+		};
+		A22EE90F20E1462700C6FBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF156E2350781BF9793087CE /* Pods-swf-RaderChart-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-RaderChart-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-RaderChart-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf-RaderChart-demo.app/swf-RaderChart-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22EE8E820E1462500C6FBF2 /* Build configuration list for PBXProject "swf-RaderChart-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22EE90820E1462700C6FBF2 /* Debug */,
+				A22EE90920E1462700C6FBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22EE90A20E1462700C6FBF2 /* Build configuration list for PBXNativeTarget "swf-RaderChart-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22EE90B20E1462700C6FBF2 /* Debug */,
+				A22EE90C20E1462700C6FBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22EE90D20E1462700C6FBF2 /* Build configuration list for PBXNativeTarget "swf-RaderChart-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22EE90E20E1462700C6FBF2 /* Debug */,
+				A22EE90F20E1462700C6FBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22EE8E520E1462500C6FBF2 /* Project object */;
+}

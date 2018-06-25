@@ -1,0 +1,6 @@
+framework module Pods_swf_RaderChart_demo {
+  umbrella header "Pods-swf-RaderChart-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
