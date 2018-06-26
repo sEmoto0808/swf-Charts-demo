@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        radarView.setData(withPoints: elements, values: values, delegate:self)
+        //radarView.setData(withPoints: elements, values: values, delegate:self)
+        radarView.setDataWithAnimation(withPoints: elements, values: values, delegate:self)
     }
 
     override func didReceiveMemoryWarning() {
